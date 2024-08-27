@@ -8,7 +8,7 @@ Solutions to [Advent of Code] 2023, written in Clojure and C99.
 ### C
 There are basically no prerequisites. Every file is self-contained, for example:
 ```sh
-cc -Wall -g d1.c -p 1 && ./a.out ../inputs/1.txt
+cc -Wall -g d1.c && ./a.out -p 1 ../inputs/1.txt
 ```
 ### Clojure
 The project uses [Leiningen]. To run a specific task, type
