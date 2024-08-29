@@ -383,8 +383,8 @@ long long part_2 (FILE *input) {
     if(*line=='\n') break;
     long long lres = process_line_v2(line);
 #ifdef DEBUG
-#endif
     printf("line result: %lld\n", lres);
+#endif
     res += lres;
   }
   return res;
