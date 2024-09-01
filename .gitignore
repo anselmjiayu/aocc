@@ -3,3 +3,4 @@ output.txt
 target/
 .clj-kondo/
 .lsp/
+/inputs/
